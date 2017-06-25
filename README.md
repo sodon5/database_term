@@ -27,8 +27,8 @@
 ## Process
 1. User-requirement analysis sd
 2. Conceptual design
-3. 
-4. 
+3. Logical design
+4. Physical design
 
 ## Results of the process
 1. specification of user requirements
