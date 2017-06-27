@@ -1,6 +1,6 @@
 
 ## physical design : 스키마정의코드
-
+<pre><code>
 CREATE TABLE professor 
 	(
 	profID INT(6) NOT NULL,
@@ -65,3 +65,4 @@ CREATE TABLE lecgrade(
   FOREIGN KEY(studID) REFERENCES student(studID) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY(profID) REFERENCES professor(profID) ON UPDATE CASCADE ON DELETE CASCADE,
   FOREIGN KEY(lecID,lecYEAR,lecSEMESTER) REFERENCES lecture(lecID,lecYEAR,lecSEMESTER) ON UPDATE CASCADE ON DELETE CASCADE);
+</code></pre>
