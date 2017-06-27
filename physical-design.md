@@ -1,3 +1,4 @@
+
 ## physical design : 스키마정의코드
 
 CREATE TABLE professor 
