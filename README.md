@@ -41,11 +41,11 @@
 ### User-requirement analysis
 - 요구사항 명세서
 
-### Conceptual design
+### Conceptual-design.md
 -  개념적 설계 결과물
 
-### 스키마정의코드
--  Physical design
+### physical-design.md
+-  스키마정의코드
 
 ### joincapture.png
 - DBMS 커널에서 JOIN 쿼리를 수행한 결과를 캡쳐
