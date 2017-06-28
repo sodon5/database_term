@@ -1,5 +1,20 @@
 # Database concepts
 
+## FILE 
+
+### User-requirement analysis.pdf
+- 요구사항 명세서
+
+### Conceptual-design.pdf
+-  개념적 설계 결과물
+
+### physical-design.md
+-  스키마정의코드
+
+### joincapture.png
+- DBMS 커널에서 JOIN 쿼리를 수행한 결과를 캡쳐
+
+
 ## Design Phases(설계 단계)
 
 ### User- requirement analysis 
@@ -35,20 +50,6 @@
 2. specification of functional requirements
 3. relational schema
 4. file, index structure
-
-
-
-### User-requirement analysis
-- 요구사항 명세서
-
-### Conceptual-design.md
--  개념적 설계 결과물
-
-### physical-design.md
--  스키마정의코드
-
-### joincapture.png
-- DBMS 커널에서 JOIN 쿼리를 수행한 결과를 캡쳐
 
 
 
