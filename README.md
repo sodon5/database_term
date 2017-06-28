@@ -38,7 +38,17 @@
 
 
 
-### Database 수정사항(ER-diagram 기준)
-* lecture_info를 lecture_attend로 수정
-* lec_grade에 attend_grade 추가
-* lec_hw에 hwcheck란은 삭제
+### User-requirement analysis
+- 요구사항 명세서
+
+### Conceptual design
+-  개념적 설계 결과물
+
+### 스키마정의코드
+-  Physical design
+
+### joincapture.png
+- DBMS 커널에서 JOIN 쿼리를 수행한 결과를 캡쳐
+
+
+
