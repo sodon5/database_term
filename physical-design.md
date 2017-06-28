@@ -1,22 +1,25 @@
 
 ## physical design : 스키마정의코드
+
 <pre><code>
 CREATE TABLE professor 
 	(
 	profID INT(6) NOT NULL,
+	profPASSWORD VARCHAR(30) NOT NULL,
 	profNAME VARCHAR(30) NOT NULL,
 	profLEC VARCHAR(200) NULL,
 	profNUM CHAR(7) NOT NULL,
 	profEMAIL VARCHAR(40) NULL,
-	PRIMARY KEY (profID));
+	PRIMARY KEY (profID,profPASSWORD));
  
 CREATE TABLE student (
   studID INT(10) NOT NULL,
+  studPASSWORD VARCHAR(30) NOT NULL,
   studNAME VARCHAR(30) NOT NULL,
   studLEC VARCHAR(200) NULL,
   studNUM CHAR(8) NOT NULL,
   studEMAIL VARCHAR(40) NULL,
-  PRIMARY KEY (studID));
+  PRIMARY KEY (studID,studPASSWORD));
 
   CREATE TABLE lecture (
   lecID INT(10) NOT NULL,
